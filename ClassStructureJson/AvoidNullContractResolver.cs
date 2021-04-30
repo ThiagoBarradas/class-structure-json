@@ -26,8 +26,7 @@ namespace ClassStructureJson
 
             var valueProvider =
                 Activator.CreateInstance(typeof(DefaultValueProvider<>).MakeGenericType(property.PropertyType), value);
-
-            property.PropertyType = property.PropertyType;
+            
             property.ValueProvider = (IValueProvider) valueProvider;
             property.ObjectCreationHandling = ObjectCreationHandling.Reuse;
         
