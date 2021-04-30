@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackUtils", "PackUtils\PackUtils.csproj", "{1AD33213-FF01-480F-A020-1C459196FDA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3AB0A94-D9CF-47C0-AA76-FDFB43292722}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackUtils.Test", "PackUtils.Test\PackUtils.Test.csproj", "{DFECB0FE-5519-42E3-831F-BFC9DB1BCD13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{F7179EED-2CC1-4AD3-8079-53EC748007E2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devops", "devops", "{BE6D12F9-9A76-4685-907A-AFD072DB620D}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		azure-pipelines.yml = azure-pipelines.yml
+		codecov.yml = codecov.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{0B7D6B69-3530-47AA-BB56-1F9D111457AF}"
+	ProjectSection(SolutionItems) = preProject
+		.github\CONTRIBUTING.md = .github\CONTRIBUTING.md
+		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AD33213-FF01-480F-A020-1C459196FDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD33213-FF01-480F-A020-1C459196FDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD33213-FF01-480F-A020-1C459196FDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD33213-FF01-480F-A020-1C459196FDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFECB0FE-5519-42E3-831F-BFC9DB1BCD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFECB0FE-5519-42E3-831F-BFC9DB1BCD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFECB0FE-5519-42E3-831F-BFC9DB1BCD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFECB0FE-5519-42E3-831F-BFC9DB1BCD13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7179EED-2CC1-4AD3-8079-53EC748007E2} = {E3AB0A94-D9CF-47C0-AA76-FDFB43292722}
+		{BE6D12F9-9A76-4685-907A-AFD072DB620D} = {E3AB0A94-D9CF-47C0-AA76-FDFB43292722}
+		{0B7D6B69-3530-47AA-BB56-1F9D111457AF} = {E3AB0A94-D9CF-47C0-AA76-FDFB43292722}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79DB04FC-AEE8-4D2D-A0FE-084FC2D158C8}
+	EndGlobalSection
+EndGlobal

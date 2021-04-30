@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassStructureJson", "ClassStructureJson\ClassStructureJson.csproj", "{95223A8F-18C5-40B5-A930-31BC533F7BFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22C48E7F-ABDA-4F68-873C-51F68073E819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassStructureJson.Tests", "ClassStructureJson.Tests\ClassStructureJson.Tests.csproj", "{32596322-580B-45D4-9C17-14C461A0A90C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devops", "devops", "{19A606A6-B88E-4033-B818-8735F9F1724A}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{1CE82137-1F45-497F-AF79-352BDD8691F3}"
+	ProjectSection(SolutionItems) = preProject
+		.github\CONTRIBUTING.md = .github\CONTRIBUTING.md
+		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
+		LICENSE = LICENSE
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{6911025E-E4D3-4EAC-A723-92E32DC297AF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95223A8F-18C5-40B5-A930-31BC533F7BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95223A8F-18C5-40B5-A930-31BC533F7BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95223A8F-18C5-40B5-A930-31BC533F7BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95223A8F-18C5-40B5-A930-31BC533F7BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32596322-580B-45D4-9C17-14C461A0A90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32596322-580B-45D4-9C17-14C461A0A90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32596322-580B-45D4-9C17-14C461A0A90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32596322-580B-45D4-9C17-14C461A0A90C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19A606A6-B88E-4033-B818-8735F9F1724A} = {22C48E7F-ABDA-4F68-873C-51F68073E819}
+		{1CE82137-1F45-497F-AF79-352BDD8691F3} = {22C48E7F-ABDA-4F68-873C-51F68073E819}
+		{6911025E-E4D3-4EAC-A723-92E32DC297AF} = {22C48E7F-ABDA-4F68-873C-51F68073E819}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {294632C4-6A08-44A9-A1FA-D10E0E13D6CF}
+	EndGlobalSection
+EndGlobal

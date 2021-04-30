@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<Authors>Thiago Barradas</Authors>
+    <Description>Describe your class structure as json</Description>
+    <PackageTags>json, class, format, structure, serialize, describe, newtonsoft, properties, property</PackageTags>
+    <RepositoryUrl>https://github.com/ThiagoBarradas/class-structure-json</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/ThiagoBarradas/class-structure-json/blob/master/LICENSE</PackageLicenseUrl>
+	<Company>Thiago Barradas</Company>
+    <PackageIconUrl>https://i.imgur.com/FMfIiNA.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/ThiagoBarradas/class-structure-json</PackageProjectUrl>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
