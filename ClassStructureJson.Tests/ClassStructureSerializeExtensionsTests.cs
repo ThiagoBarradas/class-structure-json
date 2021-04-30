@@ -16,7 +16,7 @@ namespace ClassStructureJson.Tests
             var strategy = new SnakeCaseNamingStrategy();
 
             // act
-            var json = typeof(Car).GetClassStructure(strategy, Formatting.Indented);
+            var json = typeof(Car).GetClassStructure(strategy, Formatting.None);
 
             // assert
             Assert.Equal(expectedJson, json);
