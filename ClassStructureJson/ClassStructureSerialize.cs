@@ -5,8 +5,6 @@ namespace ClassStructureJson
 {
     public class ClassStructureSerialize : JsonConverter
     {
-        public static string Password = "#$Tyhj;6yUi@";
-
         private bool IsNullable { get; set; }
 
         public override bool CanConvert(Type type)
