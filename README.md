@@ -10,14 +10,14 @@ Describe your class structure as Json
 
 ## Install via NuGet
 
-```
+```command
 PM> Install-Package ClassStructureJson
 ```
 
 ## How to use
 
 Class sample
-```
+```csharp
 public class Person
 {
     public string Name { get; set; }
@@ -34,7 +34,7 @@ public class SubClassTest
 ```
 
 Describing class structure
-```
+```csharp
 using ClassStructureJson;
 
 // ...
@@ -47,7 +47,7 @@ Console.WriteLine(json);
 ```
 
 Output
-```
+```json
 {
   "name": "string",
   "created_at": "DateTime",
